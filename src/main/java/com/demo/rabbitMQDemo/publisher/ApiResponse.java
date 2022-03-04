@@ -41,9 +41,10 @@ public class ApiResponse {
 
     @Override
     public String toString() {
-        return "Current Order: {" +
+        return "Current Oder: {" +
                 "order=" + order +
                 ", orderStatus=" + orderStatus +
+                ", restaurantName='" + restaurantName + '\'' +
                 '}';
     }
 }
